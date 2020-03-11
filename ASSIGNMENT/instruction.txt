@@ -1,0 +1,43 @@
+CREATE  A REACT WEB APPLICATION
+
+1. Create a branch with your fullname
+
+2. Make use the project_plan.xls template located in the ProjectPlanDocumentation repo to document your activities for the duration of this project.  
+   Use this link to clone the repo : https://github.com/fpghubintern/ProjectPlanDocumentation.git
+
+3. You are required to create a react web application which consists of :
+
+a. Login Page.
+b. Login Successful Page.
+
+
+4. Kindly pay attention to :
+
+i. UI / UX
+	a. Page Responsiveness;
+	b. Detailing; 
+	c. Font; 
+	d. User Experience
+
+ii. React Technicalities
+	a. Routing
+	b. Separation of Tasks : 
+		i.   the login page (.js file)
+		ii.  the login successful page (.js file)
+		iii. the logic page (.js file)
+		iv.  the login css page (.css / .module.css file)
+		v.   the login successful css page (.css / .module.css file)
+
+5. Copy and paste this url link in your browser of choice to display the UI : 
+	URL : https://www.figma.com/file/23Afk73mhtU7PiTHcl5TwK/Untitled?node-id=0%3A1  
+
+
+6. Kindly copy the images in the assignment folder and paste in the images folder in your project directory.
+   The images is to be used in the building of the application.  
+
+7. Download images (if need be) for use in this project.
+
+8. Make sure to push to the git repository 'https://github.com/fpghubintern/reactweb' with your created
+git branch frequently and or before the end of work.
+
+Good luck.
