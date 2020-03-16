@@ -1,0 +1,113 @@
+.agb{
+    color:whitesmoke;
+    font-family: 'Roboto';
+    font-size: 10px;
+
+}
+
+.form__box {
+    background: rgba(0, 0, 0, 0.88);
+    width:35%;
+    border-radius:0.5rem;
+    padding:2rem;
+     position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+
+}
+
+.label {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 0.5rem;
+    color: #FFFFFF  !important;
+     }
+
+     .input {
+        background:none;
+        border-top:0;
+        border-right:0;
+        border-left:0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.47);
+        width:100%;
+        margin-bottom: 1rem;
+        outline:none;
+        color:whitesmoke;
+    }
+
+    .feeds {
+        margin-bottom:20px;
+    }
+
+    .input-feedback {
+        background-color:white;
+        color: rgb(235, 54, 54);
+        margin-top: -15px;
+        font-size: 14px;
+        margin-bottom: 60px;
+      }
+
+     .firstParagraph {
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 11px;
+        margin-top:0;
+        text-align:right;
+        color: #C4C4C4
+         }
+        
+         .btn {
+            background: #F59C3D;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 3px;
+            font-size: 0.6rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            border:1px solid orange;
+            width:100%;
+            height:1.2rem;
+            display: inline-block;
+            color:#FFFFFF;
+            padding-top:5px;
+            /* margin-left:10px; */
+            margin-bottom: 1rem;
+         }
+        
+         
+
+         .btt {
+            text-align: center;
+            margin:0;
+        }
+       
+        .last{
+            text-align: center;
+         
+       
+        }
+       
+        .span__1 {
+            color:grey;
+            font-size:8px;
+            margin:0px;
+            display: inline-block;
+           
+        }
+       
+        .span__2 {
+       color:#ffff;
+       
+       font-size:10px;
+       margin:0px;
+       display: inline-block;
+       margin-left:15px;
+        }
+         
+          .background {
+            object-fit:cover; 
+             /* position:relative;
+             height:100%; */
+             height: 98vh;
+             width:100%; 
+         }   

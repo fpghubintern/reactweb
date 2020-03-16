@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+ import Validate from './component/validate/validateForm'
+import classes from './app.module.css'
+import {Route, Switch} from 'react-router-dom'
+// import background from './assests/images/background.jpg'
+import Success  from './component/loginSuccess/loginSuccess'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+  return  (
+  <Switch>
+      <div class={classes.cover}>
+          {/* <div class={classes.background}>
+            <img className={classes.background} src={background} alt="backgroundImage"/> */}
+          <Route path="/" exact component={Validate} />
+            {/* <Validate/> */}  
+          {/* </div> */}
+          {/* <Success/> */}
+          <Route path="/checkout" exact component={Success}/>
+
+      </div>
+  </Switch>
+
+  ) 
+}
 export default App;

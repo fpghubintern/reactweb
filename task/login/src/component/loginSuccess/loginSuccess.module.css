@@ -1,0 +1,93 @@
+.cover {
+    width:100%;
+    height:98vh;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+
+
+
+.background {
+    background-image:url(../../assests/images/background.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+}
+
+
+ .form__box {
+     background: rgba(0, 0, 0, 0.88);
+     width:50%;
+     border-radius:0.2rem;
+     padding:2rem;
+     box-sizing: border-box;
+     position:relative;
+     top:25%;
+     left:25%;
+     height:300px;
+ }
+
+ .image {
+     object-fit: cover;
+     position:absolute;
+     top:30%;
+     left:50%;
+     width:20%;
+     transform: translate(-50% ,-50%)
+ }
+
+
+
+ .para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 12px;
+    
+
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+ }
+
+ .para_div {
+position:absolute;
+top:52%;
+left:44%;
+ }
+
+
+ .btn {
+    background: #F59C3D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    font-size: 0.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid orange;
+    width:70%;
+    height:1.2rem;
+    display: inline-block;
+    color:#FFFFFF;
+    padding-top:5px;
+    margin-bottom: 1rem;
+    position:absolute;
+    top:70%;
+    left:15%;
+ }
+
+ .btt {
+     text-align: center;
+ }
+
+
+ @media (max-width:780px) {
+    .para_div {
+        position:absolute;
+        top:40%;
+        left:30%;
+         }
+ }
