@@ -63,7 +63,7 @@ const ValidatedLoginForm = () => {
               className={classes.input}
             />
             {errors.email && touched.email && (
-              <div className={classes.feeds}>{errors.email}</div>
+              <div style={{"color":"red"}} className={classes.feeds}>{errors.email}</div>
             )}
             
             <label className={classes.label} htmlFor="email">Password</label>
@@ -78,7 +78,7 @@ const ValidatedLoginForm = () => {
               className={classes.input}
             />
             {errors.password && touched.password && (
-              <div className={classes.feeds}>{errors.password}</div>
+              <div style={{"color":"red","marginTop":"0px"}} className={classes.feeds}>{errors.password} </div>
             )}
             <p className={classes.firstParagraph}> forgot password</p>
             {/* <Link to={isSubmitting && "/checkout"} onClick={()=>console.log(isSubmitting)}> */}
@@ -95,7 +95,7 @@ const ValidatedLoginForm = () => {
 
 
             <div className={classes.last}>
-              <p  className={classes.span__1}> dont have an account? </p> 
+              <p  className={classes.span__1}> don't have an account? </p> 
               <p className={classes.span__2}> sign up </p> 
             </div>
         </div>
